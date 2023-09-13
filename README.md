@@ -11,7 +11,7 @@
   Department of Industrial Engineering/Systems Management, Yazd University, Yazd, Iran
 
 ## Publications
- - [2023] The Third Party Logistics Provider Freight Management Problem: A Framework and Deep Reinforcement Learning Approach
+ - [2023] The Third Party Logistics Provider Freight Management Problem: A Framework and Deep Reinforcement Learning Approach  
    Under Revision in Annals of Operations Research, Amin Abbasi-Pooya, Michael T. Lash 
 
 ## Talks & Lectures
