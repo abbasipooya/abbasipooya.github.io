@@ -1,4 +1,5 @@
-# Data Scientist
+# Ph.D. Candidate of Analytics, Information, and Operations Management
+# School of Business, University of Kansas
 
 #### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
 
