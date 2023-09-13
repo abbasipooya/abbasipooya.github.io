@@ -1,7 +1,6 @@
 # Ph.D. Candidate of Analytics, Information, and Operations Management
-# School of Business, University of Kansas
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+#### School of Business, University of Kansas
 
 ## Education
 - Ph.D. Candidate of Analytics, Information, and Operations Management | School of Business, University of Kansas, Lawrence, KS (_2019-present_)								       		
