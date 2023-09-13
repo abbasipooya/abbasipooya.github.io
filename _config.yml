@@ -1,7 +1,4 @@
-iziToast.show({
-    title: 'First Line<br>Second Line',
-    message: 'Message Line One<br>Message Line Two',
-});
+title: Amin Abbasi Pooya
 is_project_page: false
 logo: /img/P1580200_circle_cropped.png
 #description: text below image
