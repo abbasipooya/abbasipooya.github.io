@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         body {
@@ -15,10 +15,10 @@
             background-color: #f8fafc; /* slate-50 */
         }
         .content-section {
-            @apply bg-white rounded-xl shadow-sm p-6 md:p-8 mb-8;
+            @apply bg-white rounded-xl shadow-sm p-6 md:p-8;
         }
         .section-heading {
-            @apply text-2xl font-bold text-slate-800 mb-6 pb-2 border-b border-slate-200;
+            @apply text-2xl font-extrabold text-slate-800 mb-6 pb-2 border-b border-slate-200;
         }
         .sidebar-link {
             @apply flex items-center space-x-3 text-slate-600 hover:text-blue-600 transition-colors duration-200;
@@ -127,7 +127,48 @@
                             <p>My research explores the operational challenges and opportunities presented by disruptive technologies such as autonomous vehicles and blockchain. I am particularly interested in applying Machine Learning (especially Deep Reinforcement Learning), Game Theory, and Optimization to solve complex problems in supply chain management and insurance operations.</p>
                         </div>
                     </section>
+
+                    <hr class="my-4 border-slate-200">
+
+                    <!-- Education Section -->
+                    <section id="education" class="content-section">
+                        <h2 class="section-heading">Education</h2>
+                         <div class="space-y-6">
+                            <div class="flex items-start space-x-4">
+                                <div class="bg-slate-100 text-slate-600 rounded-lg p-3 flex-shrink-0">
+                                    <i data-lucide="graduation-cap" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-slate-800">Ph.D. in Analytics, Information, & Operations Management</h3>
+                                    <p class="text-sm text-slate-600">University of Kansas, School of Business</p>
+                                    <p class="text-xs text-slate-500 mt-1">2019 - 2024</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                               <div class="bg-slate-100 text-slate-600 rounded-lg p-3 flex-shrink-0">
+                                    <i data-lucide="graduation-cap" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-slate-800">M.Sc. in Industrial Engineering</h3>
+                                    <p class="text-sm text-slate-600">Tarbiat Modares University</p>
+                                    <p class="text-xs text-slate-500 mt-1">2013 - 2015</p>
+                                </div>
+                            </div>
+                             <div class="flex items-start space-x-4">
+                               <div class="bg-slate-100 text-slate-600 rounded-lg p-3 flex-shrink-0">
+                                    <i data-lucide="graduation-cap" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-slate-800">B.Sc. in Industrial Engineering</h3>
+                                    <p class="text-sm text-slate-600">Yazd University</p>
+                                    <p class="text-xs text-slate-500 mt-1">2007 - 2011</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                     
+                    <hr class="my-4 border-slate-200">
+
                     <!-- News & Updates -->
                     <section id="news" class="content-section">
                         <h2 class="section-heading">News & Updates</h2>
@@ -146,6 +187,8 @@
                              </li>
                          </ul>
                     </section>
+
+                    <hr class="my-4 border-slate-200">
 
                     <!-- Publications Section -->
                     <section id="publications" class="content-section">
@@ -169,6 +212,8 @@
                             </div>
                         </div>
                     </section>
+
+                    <hr class="my-4 border-slate-200">
 
                     <!-- Teaching Section -->
                     <section id="teaching" class="content-section">
@@ -195,6 +240,8 @@
                             </div>
                         </div>
                     </section>
+
+                    <hr class="my-4 border-slate-200">
 
                     <!-- Experience Section -->
                     <section id="experience" class="content-section">
@@ -228,43 +275,6 @@
                                     <h3 class="font-semibold text-slate-800">Graduate Research Assistant</h3>
                                     <p class="text-sm text-slate-600">Dept. of Economics, University of Kansas</p>
                                     <p class="text-xs text-slate-500 mt-1">Summer 2023</p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    
-                     <!-- Education Section -->
-                    <section id="education" class="content-section">
-                        <h2 class="section-heading">Education</h2>
-                         <div class="space-y-6">
-                            <div class="flex items-start space-x-4">
-                                <div class="bg-slate-100 text-slate-600 rounded-lg p-3 flex-shrink-0">
-                                    <i data-lucide="graduation-cap" class="w-5 h-5"></i>
-                                </div>
-                                <div>
-                                    <h3 class="font-semibold text-slate-800">Ph.D. in Analytics, Information, & Operations Management</h3>
-                                    <p class="text-sm text-slate-600">University of Kansas, School of Business</p>
-                                    <p class="text-xs text-slate-500 mt-1">2019 - 2024</p>
-                                </div>
-                            </div>
-                            <div class="flex items-start space-x-4">
-                               <div class="bg-slate-100 text-slate-600 rounded-lg p-3 flex-shrink-0">
-                                    <i data-lucide="graduation-cap" class="w-5 h-5"></i>
-                                </div>
-                                <div>
-                                    <h3 class="font-semibold text-slate-800">M.Sc. in Industrial Engineering</h3>
-                                    <p class="text-sm text-slate-600">Tarbiat Modares University</p>
-                                    <p class="text-xs text-slate-500 mt-1">2013 - 2015</p>
-                                </div>
-                            </div>
-                             <div class="flex items-start space-x-4">
-                               <div class="bg-slate-100 text-slate-600 rounded-lg p-3 flex-shrink-0">
-                                    <i data-lucide="graduation-cap" class="w-5 h-5"></i>
-                                </div>
-                                <div>
-                                    <h3 class="font-semibold text-slate-800">B.Sc. in Industrial Engineering</h3>
-                                    <p class="text-sm text-slate-600">Yazd University</p>
-                                    <p class="text-xs text-slate-500 mt-1">2007 - 2011</p>
                                 </div>
                             </div>
                         </div>
@@ -316,4 +326,5 @@
     </script>
 </body>
 </html>
+
 
