@@ -1,330 +1,82 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amin Abbasi-Pooya | Assistant Professor</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <title>Amin Abbasi-Pooya - Academic Profile</title>
     <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f8fafc; /* slate-50 */
-        }
-        .content-section {
-            @apply bg-white rounded-xl shadow-sm p-6 md:p-8;
-        }
-        .section-heading {
-            @apply text-2xl font-extrabold text-slate-800 mb-6 pb-2 border-b border-slate-200;
-        }
-        .sidebar-link {
-            @apply flex items-center space-x-3 text-slate-600 hover:text-blue-600 transition-colors duration-200;
-        }
-        .publication-item {
-            @apply relative pl-4 before:absolute before:left-0 before:top-2 before:w-1.5 before:h-1.5 before:bg-slate-300 before:rounded-full;
-        }
-        .ribbon-link {
-            @apply flex flex-col items-center justify-center w-full py-4 px-2 text-center text-slate-300 hover:bg-slate-700 hover:text-white transition-colors duration-200;
-        }
-        .ribbon-link.active {
-            @apply bg-slate-900 text-white;
-        }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 900px; margin: 0 auto; padding: 2rem; color: #333; }
+        h1 { border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; margin-bottom: 0.2em; }
+        h2 { border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; margin-top: 1.5em; color: #24292e; }
+        h3 { margin-bottom: 0.2em; font-weight: normal; color: #586069; }
+        a { color: #0366d6; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .header-info { margin-bottom: 2em; color: #586069; }
+        ul { margin-top: 0.5em; }
+        li { margin-bottom: 0.8em; }
     </style>
 </head>
-<body class="text-slate-700">
-
-    <!-- Vertical Ribbon Navigation -->
-    <aside class="hidden lg:flex flex-col items-center justify-start pt-24 space-y-4 fixed top-0 left-0 h-screen w-20 bg-slate-800 text-white shadow-lg z-50">
-        <a href="#about" class="ribbon-link active" data-section="about">
-            <i data-lucide="home" class="w-6 h-6 mb-1"></i>
-            <span class="text-xs font-medium">Home</span>
-        </a>
-        <a href="#publications" class="ribbon-link" data-section="publications">
-            <i data-lucide="file-text" class="w-6 h-6 mb-1"></i>
-            <span class="text-xs font-medium">Publications</span>
-        </a>
-        <a href="#teaching" class="ribbon-link" data-section="teaching">
-            <i data-lucide="book-open" class="w-6 h-6 mb-1"></i>
-            <span class="text-xs font-medium">Teaching</span>
-        </a>
-        <a href="./05 Abbasi-Pooya_CV.docx" download="Abbasi-Pooya-CV.docx" class="ribbon-link mt-auto mb-4">
-            <i data-lucide="download" class="w-6 h-6 mb-1"></i>
-            <span class="text-xs font-medium">CV</span>
-        </a>
-    </aside>
-
-    <!-- Main Content Wrapper -->
-    <div class="lg:pl-20">
-        <main class="container mx-auto p-4 sm:p-6 lg:p-8">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
-                
-                <!-- Left Sticky Column -->
-                <aside class="lg:col-span-4 lg:sticky lg:top-8 self-start">
-                    <div class="flex flex-col items-center lg:items-start text-center lg:text-left">
-                        <img src="https://placehold.co/400x400/E2E8F0/4A5568?text=AAP" alt="Amin Abbasi-Pooya" class="rounded-full w-40 h-40 object-cover border-4 border-white shadow-md mb-4">
-                        <h1 class="text-3xl font-bold text-slate-900">Amin Abbasi-Pooya</h1>
-                        <p class="text-lg text-blue-600 font-medium mt-1">Assistant Professor</p>
-                        <p class="text-slate-600 mt-2 max-w-xs">
-                            Information Systems and Business Analytics
-                            <br>
-                            Neil Griffin College of Business, Arkansas State University
-                        </p>
-
-                        <div class="w-full space-y-3 mt-8 text-sm">
-                            <a href="mailto:aabbasipooya@astate.edu" class="sidebar-link">
-                               <i data-lucide="mail" class="w-4 h-4 flex-shrink-0"></i>
-                               <span>aabbasipooya@astate.edu</span>
-                            </a>
-                            <div class="sidebar-link">
-                               <i data-lucide="map-pin" class="w-4 h-4 flex-shrink-0"></i>
-                               <span>Jonesboro, AR, USA</span>
-                            </div>
-                             <a href="#" class="sidebar-link">
-                               <i data-lucide="linkedin" class="w-4 h-4 flex-shrink-0"></i>
-                               <span>LinkedIn Profile</span>
-                            </a>
-                             <a href="#" class="sidebar-link">
-                               <i data-lucide="graduation-cap" class="w-4 h-4 flex-shrink-0"></i>
-                               <span>Google Scholar</span>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="mt-10 pt-8 border-t border-slate-200">
-                        <h3 class="text-lg font-semibold text-slate-800 mb-4">Research Interests</h3>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="bg-slate-200 text-slate-700 text-xs font-medium px-2.5 py-1 rounded-md">Disruptive Technologies</span>
-                            <span class="bg-slate-200 text-slate-700 text-xs font-medium px-2.5 py-1 rounded-md">Autonomous Vehicles</span>
-                            <span class="bg-slate-200 text-slate-700 text-xs font-medium px-2.5 py-1 rounded-md">Machine Learning</span>
-                            <span class="bg-slate-200 text-slate-700 text-xs font-medium px-2.5 py-1 rounded-md">Game Theory</span>
-                            <span class="bg-slate-200 text-slate-700 text-xs font-medium px-2.5 py-1 rounded-md">Optimization</span>
-                        </div>
-                    </div>
-                     <div class="mt-8">
-                        <h3 class="text-lg font-semibold text-slate-800 mb-4">Technical Skills</h3>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="bg-slate-200 text-slate-700 text-xs font-medium px-2.5 py-1 rounded-md">Python</span>
-                            <span class="bg-slate-200 text-slate-700 text-xs font-medium px-2.5 py-1 rounded-md">R</span>
-                            <span class="bg-slate-200 text-slate-700 text-xs font-medium px-2.5 py-1 rounded-md">MATLAB</span>
-                            <span class="bg-slate-200 text-slate-700 text-xs font-medium px-2.5 py-1 rounded-md">GAMS</span>
-                            <span class="bg-slate-200 text-slate-700 text-xs font-medium px-2.5 py-1 rounded-md">LINDO</span>
-                            <span class="bg-slate-200 text-slate-700 text-xs font-medium px-2.5 py-1 rounded-md">MATHEMATICA</span>
-                        </div>
-                    </div>
-
-                </aside>
-                
-                <!-- Right Scrollable Column -->
-                <div class="lg:col-span-8">
-                    <!-- About Me Section -->
-                    <section id="about" class="content-section">
-                        <h2 class="section-heading">About Me</h2>
-                        <div class="prose prose-slate max-w-none">
-                            <p>I am an Assistant Professor of Information Systems and Business Analytics at the Neil Griffin College of Business, Arkansas State University. My work focuses on the intersection of technology, business analytics, and operations management.</p>
-                            <p>My research explores the operational challenges and opportunities presented by disruptive technologies such as autonomous vehicles and blockchain. I am particularly interested in applying Machine Learning (especially Deep Reinforcement Learning), Game Theory, and Optimization to solve complex problems in supply chain management and insurance operations.</p>
-                        </div>
-                    </section>
-
-                    <hr class="my-4 border-slate-200">
-
-                    <!-- Education Section -->
-                    <section id="education" class="content-section">
-                        <h2 class="section-heading">Education</h2>
-                         <div class="space-y-6">
-                            <div class="flex items-start space-x-4">
-                                <div class="bg-slate-100 text-slate-600 rounded-lg p-3 flex-shrink-0">
-                                    <i data-lucide="graduation-cap" class="w-5 h-5"></i>
-                                </div>
-                                <div>
-                                    <h3 class="font-semibold text-slate-800">Ph.D. in Analytics, Information, & Operations Management</h3>
-                                    <p class="text-sm text-slate-600">University of Kansas, School of Business</p>
-                                    <p class="text-xs text-slate-500 mt-1">2019 - 2024</p>
-                                </div>
-                            </div>
-                            <div class="flex items-start space-x-4">
-                               <div class="bg-slate-100 text-slate-600 rounded-lg p-3 flex-shrink-0">
-                                    <i data-lucide="graduation-cap" class="w-5 h-5"></i>
-                                </div>
-                                <div>
-                                    <h3 class="font-semibold text-slate-800">M.Sc. in Industrial Engineering</h3>
-                                    <p class="text-sm text-slate-600">Tarbiat Modares University</p>
-                                    <p class="text-xs text-slate-500 mt-1">2013 - 2015</p>
-                                </div>
-                            </div>
-                             <div class="flex items-start space-x-4">
-                               <div class="bg-slate-100 text-slate-600 rounded-lg p-3 flex-shrink-0">
-                                    <i data-lucide="graduation-cap" class="w-5 h-5"></i>
-                                </div>
-                                <div>
-                                    <h3 class="font-semibold text-slate-800">B.Sc. in Industrial Engineering</h3>
-                                    <p class="text-sm text-slate-600">Yazd University</p>
-                                    <p class="text-xs text-slate-500 mt-1">2007 - 2011</p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    
-                    <hr class="my-4 border-slate-200">
-
-                    <!-- News & Updates -->
-                    <section id="news" class="content-section">
-                        <h2 class="section-heading">News & Updates</h2>
-                         <ul class="space-y-4">
-                             <li class="flex items-start space-x-4">
-                                 <span class="flex-shrink-0 text-xs font-bold uppercase text-slate-500 w-20 text-right">In Review</span>
-                                 <p class="text-slate-600">Our paper, "Automakers or Traditional Insurers? A Strategic Analysis of Insurance for Autonomous Vehicles", is under review at the <em class="italic">European Journal of Operational Research</em>.</p>
-                             </li>
-                              <li class="flex items-start space-x-4">
-                                 <span class="flex-shrink-0 text-xs font-bold uppercase text-slate-500 w-20 text-right">In Review</span>
-                                 <p class="text-slate-600">Our paper, "Influence Propagation as Decentralized Equilibrium", is under review for the <em class="italic">Conference on Web and Internet Economics (WINE)</em>.</p>
-                             </li>
-                             <li class="flex items-start space-x-4">
-                                 <span class="flex-shrink-0 text-xs font-bold uppercase text-blue-500 w-20 text-right">In Progress</span>
-                                 <p class="text-slate-600">Currently working on research titled "Compete or Collaborate? AV Manufacturer–Insurer Co-opetition and the Value of Risk Differentiation".</p>
-                             </li>
-                         </ul>
-                    </section>
-
-                    <hr class="my-4 border-slate-200">
-
-                    <!-- Publications Section -->
-                    <section id="publications" class="content-section">
-                        <h2 class="section-heading">Selected Publications</h2>
-                        <div class="space-y-6">
-                            <div class="publication-item">
-                                <p class="text-slate-800"><strong class="font-semibold">Abbasi-Pooya, A.</strong> and Lash, M.T. (2024), "The third party logistics provider freight management problem: a framework and deep reinforcement learning approach".</p>
-                                <p class="text-sm text-slate-500 mt-1"><em class="italic">Annals of Operations Research</em>. 339, 965–1024.</p>
-                            </div>
-                            <div class="publication-item">
-                                <p class="text-slate-800">Sayyah, A., <strong class="font-semibold">Abbasi-Pooya, A.</strong> and Kazemzadeh, R.B., (2021). "A new multi-objective-multi-criteria model for determining physical asset management strategy".</p>
-                                <p class="text-sm text-slate-500 mt-1"><em class="italic">European Journal of Industrial Engineering</em>, 15(2), pp.167-205.</p>
-                            </div>
-                            <div class="publication-item">
-                                <p class="text-slate-800">Husseinzadeh Kashan, A., Eyvazi, M. and <strong class="font-semibold">Abbasi-Pooya, A.</strong>, (2020). "An effective league championship algorithm for the stochastic multi-period portfolio optimization problem".</p>
-                                <p class="text-sm text-slate-500 mt-1"><em class="italic">Scientia Iranica</em>, 27(2), pp.829-845.</p>
-                            </div>
-                            <div class="publication-item">
-                                <p class="text-slate-800"><strong class="font-semibold">Abbasi-Pooya, A.</strong> and Kashan, A.H., (2017). "New mathematical models and a hybrid Grouping Evolution Strategy algorithm for optimal helicopter routing and crew pickup and delivery".</p>
-                                <p class="text-sm text-slate-500 mt-1"><em class="italic">Computers & Industrial Engineering</em>, 112, pp.35-56.</p>
-                            </div>
-                        </div>
-                    </section>
-
-                    <hr class="my-4 border-slate-200">
-
-                    <!-- Teaching Section -->
-                    <section id="teaching" class="content-section">
-                        <h2 class="section-heading">Teaching</h2>
-                        <div class="space-y-6">
-                            <div>
-                                <h3 class="font-semibold text-slate-800">Arkansas State University</h3>
-                                <p class="text-sm text-slate-500 mb-2">Instructor (2024 - Present)</p>
-                                <ul class="list-disc list-inside text-slate-600 text-sm space-y-1">
-                                    <li>Business Analytics (Graduate)</li>
-                                    <li>Foundations of Business Analytics (Undergraduate)</li>
-                                    <li>Management Information Systems (Undergraduate)</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3 class="font-semibold text-slate-800">University of Kansas</h3>
-                                <p class="text-sm text-slate-500 mb-2">Instructor / Graduate Teaching Assistant (2019 - 2024)</p>
-                                <ul class="list-disc list-inside text-slate-600 text-sm space-y-1">
-                                    <li>Logistics, Transportation, & Warehouse Management</li>
-                                    <li>Data Mining and Machine Learning</li>
-                                    <li>Optimization and Prescriptive Analytics</li>
-                                    <li>Introduction to Supply Chain Management</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-
-                    <hr class="my-4 border-slate-200">
-
-                    <!-- Experience Section -->
-                    <section id="experience" class="content-section">
-                        <h2 class="section-heading">Experience</h2>
-                        <div class="space-y-6">
-                            <div class="flex items-start space-x-4">
-                                <div class="bg-blue-500/10 text-blue-600 rounded-lg p-3 flex-shrink-0">
-                                    <i data-lucide="briefcase" class="w-5 h-5"></i>
-                                </div>
-                                <div>
-                                    <h3 class="font-semibold text-slate-800">Transportation & R&D Specialist</h3>
-                                    <p class="text-sm text-slate-600">Sazeh Gostar SAIPA, Tehran, Iran</p>
-                                    <p class="text-xs text-slate-500 mt-1">2017 - 2019</p>
-                                </div>
-                            </div>
-                             <div class="flex items-start space-x-4">
-                                <div class="bg-blue-500/10 text-blue-600 rounded-lg p-3 flex-shrink-0">
-                                    <i data-lucide="briefcase" class="w-5 h-5"></i>
-                                </div>
-                                <div>
-                                    <h3 class="font-semibold text-slate-800">Industrial Engineering Specialist</h3>
-                                    <p class="text-sm text-slate-600">Institute of Reliability and Asset Management, Tehran, Iran</p>
-                                    <p class="text-xs text-slate-500 mt-1">2016 - 2017</p>
-                                </div>
-                            </div>
-                            <div class="flex items-start space-x-4">
-                                <div class="bg-slate-500/10 text-slate-600 rounded-lg p-3 flex-shrink-0">
-                                    <i data-lucide="flask-conical" class="w-5 h-5"></i>
-                                </div>
-                                <div>
-                                    <h3 class="font-semibold text-slate-800">Graduate Research Assistant</h3>
-                                    <p class="text-sm text-slate-600">Dept. of Economics, University of Kansas</p>
-                                    <p class="text-xs text-slate-500 mt-1">Summer 2023</p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                </div>
-            </div>
-        </main>
-        
-        <footer class="text-center p-8 mt-8">
-            <p class="text-xs text-slate-500">&copy; <span id="current-year"></span> Amin Abbasi-Pooya. All Rights Reserved.</p>
-        </footer>
+<body>
+    <h1>Amin Abbasi-Pooya</h1>
+    <h3>Assistant Professor of Information Systems and Business Analytics</h3>
+    <div class="header-info">
+        Neil Griffin College of Business, Arkansas State University<br>
+        2007 Aggie Rd, Jonesboro, AR 72401<br>
+        Email: <a href="mailto:aabbasipooya@astate.edu">aabbasipooya@astate.edu</a>
     </div>
 
-    <script>
-        lucide.createIcons();
-        document.getElementById('current-year').textContent = new Date().getFullYear();
+    <h2>Education</h2>
+    <ul>
+        <li><strong>Ph.D. in Analytics, Information, & Operations Management (2019-2024)</strong><br>
+            School of Business, University of Kansas, KS, U.S.<br>
+            <em>Minors: Machine Learning, Game Theory</em>
+        </li>
+        <li><strong>M.Sc. in Industrial Engineering (2013-2015)</strong><br>
+            Tarbiat Modares University, Tehran, Iran<br>
+            <em>Concentration: Supply Chain Management</em>
+        </li>
+        <li><strong>B.Sc. in Industrial Engineering/Systems Management (2007-2011)</strong><br>
+            Yazd University, Yazd, Iran
+        </li>
+    </ul>
 
-        // Active state for ribbon navigation on scroll
-        const ribbonLinks = document.querySelectorAll('.ribbon-link');
-        const contentSections = document.querySelectorAll('.content-section');
+    <h2>Research & Teaching Interests</h2>
+    <ul>
+        <li><strong>Research Topics:</strong> Operational Issues in Disruptive Technologies, Autonomous Vehicles Operations, Insurance Operations, Blockchain, Machine Learning Applications in Supply Chain Management.</li>
+        <li><strong>Methodological:</strong> Machine Learning (Deep Reinforcement Learning), Game Theory, Optimization.</li>
+        <li><strong>Teaching:</strong> Information Systems and Business Analytics, Introduction to Data Mining/Machine Learning, Optimization and Prescriptive Analytics, Foundations of Business Analytics, Management Information Systems, Supply Chain Management.</li>
+    </ul>
+    
+    <h2>Work-in-Progress Research</h2>
+    <ul>
+        <li>Abbasi-Pooya, A., Fish, K. E. and Ruby, P. (2026), <strong>Industry expectations for entry-level AI skills: evidence for business curriculum design</strong>. <em>Under Revision at The International Journal of Management Education (IJME)</em>.</li>
+        <li>Abbasi-Pooya, A., Sabarwal, T. (2026), <strong>A Novel Algorithm for Spreading Contagion in a Network</strong>. <em>In preparation</em>.</li>
+    </ul>
 
-        const observerOptions = {
-            root: null,
-            rootMargin: '-30% 0px -70% 0px',
-            threshold: 0
-        };
+    <h2>Publications</h2>
+    <ul>
+        <li>Abbasi-Pooya, A., Sethuraman, N., and Mallik, S., 2026. <strong>Automakers or traditional insurers? A strategic analysis of insurance for autonomous vehicles.</strong> <em>Transportation Research Part E: Logistics and Transportation Review</em>.</li>
+        <li>Abbasi-Pooya, A., Fish, K.E. and Ruby, P., 2026. <strong>Workplace priorities for entry-level AI competencies: A preliminary study.</strong> <em>2026 Proceedings of the ISCAP Conference</em>.</li>
+        <li>Abbasi-Pooya, A. and Lash, M.T., 2024. <strong>The third party logistics provider freight management problem: a framework and deep reinforcement learning approach.</strong> <em>Annals of Operations Research</em>.</li>
+        <li>Sayyah, A., Abbasi-Pooya, A. and Kazemzadeh, R.B., 2021. <strong>A new multi-objective-multi-criteria model for determining physical asset management strategy based on maintenance and procurement factors.</strong> <em>European Journal of Industrial Engineering</em>.</li>
+        <li>Husseinzadeh Kashan, A., Eyvazi, M. and Abbasi-Pooya, A., 2020. <strong>An effective league championship algorithm for the stochastic multi-period portfolio optimization problem.</strong> <em>Scientia Iranica</em>.</li>
+        <li>Husseinzadeh Kashan, A., Abbasi-Pooya, A. and Karimiyan, S., 2019. <strong>A rig-based formulation and a league championship algorithm for helicopter routing in offshore transportation.</strong> <em>Proceedings of the 2nd International Conference on Data Engineering and Communication Technology</em>.</li>
+        <li>Kashan, A.H., Keshmiry, M., Dahooie, J.H. and Abbasi-Pooya, A., 2018. <strong>A simple yet effective grouping evolutionary strategy (GES) algorithm for scheduling parallel machines.</strong> <em>Neural Computing and Applications</em>.</li>
+        <li>Abbasi-Pooya, A. and Kashan, A.H., 2017. <strong>New mathematical models and a hybrid Grouping Evolution Strategy algorithm for optimal helicopter routing and crew pickup and delivery.</strong> <em>Computers & Industrial Engineering</em>.</li>
+    </ul>
+    
+    <h2>Teaching Experience</h2>
+    <ul>
+        <li><strong>Instructor, Arkansas State University (2024 - Present):</strong> Business Analytics (Graduate), Foundations of Business Analytics, Management Information Systems.</li>
+        <li><strong>Instructor, University of Kansas (2021 - 2022):</strong> Logistics, Transportation, & Warehouse Management.</li>
+        <li><strong>Graduate Teaching Assistant, University of Kansas (2019 - 2024):</strong> Data Mining and Machine Learning, Foundations in Business Analytics, Optimization and Prescriptive Analytics, Supply Chain Management courses.</li>
+    </ul>
 
-        const sectionObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const sectionId = entry.target.id;
-                    ribbonLinks.forEach(link => {
-                        link.classList.remove('active');
-                        if (link.dataset.section === sectionId) {
-                            link.classList.add('active');
-                        }
-                    });
-                }
-            });
-        }, observerOptions);
-
-        contentSections.forEach(section => {
-            if(section.id) { // Only observe sections with an ID
-               sectionObserver.observe(section);
-            }
-        });
-
-    </script>
+    <h2>Corporate Work Experiences & Skills</h2>
+    <ul>
+        <li><strong>Sazeh Gostar SAIPA (2017 - 2019):</strong> Transportation Specialist & R&D Specialist.</li>
+        <li><strong>Institute of Reliability and Asset Management (2016 - 2017):</strong> Industrial Engineering Specialist.</li>
+        <li><strong>Computer Skills:</strong> MATLAB, MATHEMATICA, R, Python, GAMS, LINDO.</li>
+    </ul>
 </body>
 </html>
-
-
