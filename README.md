@@ -11,11 +11,11 @@
 - **Ph.D.: Analytics, Information, & Operations Management (2019-2024)**  
   School of Business, University of Kansas, KS, U.S.  
   *Minors: Machine Learning, Game Theory*
-- **M.Sc.: Industrial Engineering (2013-2015)**  
+<!--- **M.Sc.: Industrial Engineering (2013-2015)**  
   Faculty of Industrial & Systems Engineering, Tarbiat Modares University, Tehran, Iran  
   *Concentration: Supply Chain Management*
 - **B.Sc.: Industrial Engineering/Systems Management (2007-2011)**  
-  Yazd University, Yazd, Iran
+  Yazd University, Yazd, Iran -->
 
 ## Research Interests
 - **Topics:** Operational Issues in Disruptive Technologies, Autonomous Vehicles Operations, Insurance Operations, Blockchain, Machine Learning Applications in Supply Chain Management.
@@ -50,12 +50,12 @@
 **School of Business, University of Kansas**
 - *Instructor:* Logistics, Transportation, & Warehouse Management (2021-2022)
 - *Graduate Teaching Assistant:* Data Mining and Machine Learning, Foundations in Business Analytics, Optimization and Prescriptive Analytics, Introduction to Supply Chain Management, Transportation and Logistics Systems (2019-2024)
-
+<!--
 ## Corporate Work Experiences
 - **Sazeh Gostar SAIPA**, Tehran, Iran (2017 - 2019)  
   *Transportation Specialist & R&D Specialist*
 - **Institute of Reliability and Asset Management**, Tehran, Iran (2016 - 2017)  
   *Industrial Engineering Specialist*
-
+-->
 ## Computer Skills
 MATLAB, MATHEMATICA, R, Python, GAMS, LINDO
